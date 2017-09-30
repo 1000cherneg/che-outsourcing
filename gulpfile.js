@@ -15,6 +15,7 @@ gulp.task('less', function() {
 // Configure the browserSync task
 gulp.task('browserSync', function() {
     browserSync.init({
+        browser: ["chrome"],
         server: {
             baseDir: ''
         },
