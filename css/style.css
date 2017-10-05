@@ -47,7 +47,8 @@ section .container {
   padding-top: 40px;
 }
 section .container .item {
-  margin-bottom: 70px;
+  margin-bottom: 30px;
+  min-height: 300px;
 }
 section .container .item i {
   font-size: 48px;

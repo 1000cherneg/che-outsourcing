@@ -4,6 +4,7 @@
     src: url("../fonts/Proxima%20Nova%20Regular.otf") format("opentype");
     font-weight: normal;
 }
+
 @font-face {
     font-family: "Proxima Nova Regular";
     src: url("../fonts/Proxima%20Nova%20Extrabold.otf") format("opentype");
@@ -27,30 +28,32 @@ header {
         padding-bottom: 30px;
     }
     .comp-bg {
-    background: @blue-theme url(../img/comp-bg.png) no-repeat 50% 35%;	
-    min-height: 500px;
+        background: @blue-theme url(../img/comp-bg.png) no-repeat 50% 35%;
+        min-height: 500px;
     }
- a {
- 	display: block;
- 	margin: 100px 0px;
- }
-h1,p {
-	color: white;
-	max-width: 450px;
-}
-h1 {
-	font-weight: bold;
-	font-size: 3em;
-	line-height: 40px;
-	margin-bottom: 30px;
-}
+    a {
+        display: block;
+        margin: 100px 0px;
+    }
+    h1,
+    p {
+        color: white;
+        max-width: 450px;
+    }
+    h1 {
+        font-weight: bold;
+        font-size: 3em;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
 }
 
 section .container {
     min-height: 650px;
     padding-top: 40px;
     .item {
-        margin-bottom: 70px;
+        margin-bottom: 30px;
+        min-height: 300px;
         i {
             font-size: 48px;
             color: @blue-theme;
@@ -70,9 +73,8 @@ footer {
         min-height: 140px;
         color: #a5a6a6;
         padding-top: 20px;
-
     }
     .row>div {
-    	margin-bottom: 20px;
+        margin-bottom: 20px;
     }
 }
